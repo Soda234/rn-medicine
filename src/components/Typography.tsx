@@ -25,6 +25,7 @@ const Typography = ({
   };
   return (
     <Text
+      allowFontScaling={false}
       className={cn('font-extrabold', variantClasses[variant], className)}
       {...props}
     >
